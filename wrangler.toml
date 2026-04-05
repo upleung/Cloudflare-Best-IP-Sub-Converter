@@ -1,4 +1,4 @@
-name = "cloudflaresub"
+name = "cloudflare-ip-sub"
 main = "src/worker.js"
 compatibility_date = "2026-03-06"
 workers_dev = true
