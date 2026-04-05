@@ -22,6 +22,8 @@
 - 相同输入自动去重（7 天 TTL）
 - 支持 `SUB_ACCESS_TOKEN` 访问令牌保护
 - 支持导出：Raw（Base64）/ Clash（YAML）/ Surge（文本）
+- **新增Stash和QuantymultX以及“Sing-Box”三项**
+- **优化Web排版**
 
 ## 项目结构
 
