@@ -9,6 +9,9 @@ const autoUrl = document.getElementById('autoUrl');
 const rawUrl = document.getElementById('rawUrl');
 const clashUrl = document.getElementById('clashUrl');
 const surgeUrl = document.getElementById('surgeUrl');
+const stashUrl = document.getElementById('stashUrl');
+const quanxUrl = document.getElementById('quanxUrl');
+const singboxUrl = document.getElementById('singboxUrl');
 const emptyState = document.getElementById('emptyState');
 
 const qrModal = document.getElementById('qrModal');
@@ -67,6 +70,9 @@ form.addEventListener('submit', async (event) => {
     document.getElementById('rocketUrl').value = data.urls.raw;
     clashUrl.value = data.urls.clash;
     surgeUrl.value = data.urls.surge;
+    stashUrl.value = data.urls.stash;
+    quanxUrl.value = data.urls.quanx;
+    singboxUrl.value = data.urls.singbox;
 
     emptyState.classList.add('hidden');
 
