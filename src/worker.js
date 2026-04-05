@@ -498,6 +498,9 @@ async function handleGenerate(request, env, url) {
       raw: withToken('raw'),
       clash: withToken('clash'),
       surge: withToken('surge'),
+      stash: withToken('clash'),   // 新增：Stash走Clash协议格式
+      quanx: withToken('raw'),     // 新增：QuanX原生兼容Raw Base64订阅
+      singbox: withToken('raw')    // 新增：SingBox UI兼容Raw Base64订阅
     },
     counts: {
       inputNodes: baseNodes.length,
